@@ -4,32 +4,19 @@
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
 
-.noto-sans jp-<uniquifier> {
-  font-family: "Noto Sans JP", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 .slackside-one-regular {
   font-family: "Slackside One", cursive;
   font-weight: 400;
   font-style: normal;
 }
-.madimi-one-regular {
-  font-family: "Madimi One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.hachi-maru pop-regular {
-  font-family: "Hachi Maru Pop", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
 .ephesis-regular {
   font-family: "Ephesis", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.zen-maru gothic-regular {
+  font-family: "Zen Maru Gothic", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -58,7 +45,8 @@ body {
 }
 
 .header-sub-title {
-    font-family: "Hachi Maru Pop", cursive;
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 700;
     font-size: 48px;
     text-align: center;
     margin-bottom: 40px;
