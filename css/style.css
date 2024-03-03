@@ -39,10 +39,16 @@
 
 */
 
+:root {
+    --morikaku-red : #f55;
+    --morikaku-gray : #ccc;
+}
+
 body {
     font-family: "Slackside One", cursive;
     font-weight: 400;
     font-style: normal;
+    background-color: var(--morikaku-gray);
 }
 
 .header-title {
@@ -61,7 +67,7 @@ body {
 .p-text {
     font-family: "Ephesis", cursive;
     font-size: 36px;
-    color: red;
+    color: var(--morikaku-red);
     letter-spacing: 3px;
     text-align: center;
     margin-bottom: 40px;
@@ -71,18 +77,22 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 60px 0;
     margin: 0 auto;
     ;
 }
 
 .skill-list li {
     width: 40%;
-    font-size: 36px;
+    font-size: 60px;
+    color: var(--morikaku-gray);
+    border-radius: 10px;
     line-height: 3;
     text-align: center;
     background-size: cover;
     background-position: center;
+    transition: all 0.3s ease-in-out;
+
 }
 
 .skill-list li:nth-child(1) {
@@ -104,4 +114,11 @@ body {
 .skill-list li a {
     display: block;
     padding: 20px 0;
+}
+
+.skill-list li:hover {
+    border-radius: 30px 60px;
+    transform: scale(110%);
+    transition: all 0.3s ease-in-out;
+
 }
