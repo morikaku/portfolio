@@ -41,9 +41,12 @@
 }
 
 body {
-    font-family: "Slackside One", cursive;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-variation-settings: "wdth" 100;
+
     background-color: var(--morikaku-gray);
 }
 
@@ -51,7 +54,17 @@ body {
     padding: 20px;
 }
 
+.contents-box {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
 .header-title {
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
+
     font-size: 60px;
     text-align: center;
     margin-bottom: 20px;
@@ -77,21 +90,18 @@ body {
 .skill-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     gap: 60px 0;
     margin: 0 auto;
     ;
 }
 
 .skill-list li {
-    font-family: "Saira", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: italic;
-    font-variation-settings: "wdth" 100;
 
-    width: 40%;
-    font-size: 60px;
+    width: 45%;
+    font-size: 50px;
     color: #fff;
     border-radius: 10px;
     line-height: 3;
@@ -131,28 +141,81 @@ body {
 }
 
 /* illustrator and Photoshop */
+
+.contents-area {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
 .main-title {
-    font-family: "Saira", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 600;
     font-style: italic;
-    font-variation-settings: "wdth" 100;
-
 
     font-size: 60px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
+
+.main-text {
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+
+.img-list {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 40px;
+    background-color: #ddd;
+}
+.img-list li {
+    line-height: 1.5;
+}
+
+
+
 .img-box {
-    max-width: 600px;
-    margin: 0 auto 40px;
+    margin-bottom: 40px;
     text-align: center;
 }
 img {
     max-width: 100%;
     height: auto;
 }
+
+/* Go To Top */
+#go-to-top {
+    /* display: block; */
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    line-height: 30px;
+    border-radius: 35px;
+    background-color: #999;
+    opacity: 0.5;
+    width: 70px;
+    padding: 20px;
+    text-align: center;
+    z-index: 2;
+}
+#go-to-top::before {
+    content: "";
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: translateY(20%) rotate(-45deg);
+}
+
+
 
 @media screen and (max-width:640px) {
 
