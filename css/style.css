@@ -148,8 +148,6 @@ body {
 }
 
 
-
-
 .main-text {
     font-weight: 400;
     font-style: normal;
@@ -169,6 +167,10 @@ body {
 }
 .img-contents li {
     line-height: 1.5;
+    border-bottom: 1px dotted #999;
+}
+.img-contents li a {
+    display: block;
 }
 
 
@@ -199,19 +201,17 @@ img {
 
 /* Go To Top */
 #go-to-top {
-    /* display: block; */
     display: none;
     position: fixed;
     right: 20px;
     bottom: 20px;
     line-height: 30px;
-    border-radius: 35px;
-    background-color: #987;
-    opacity: 0.8;
+    border-radius: 20px;
+    background-color: #31a8ff;
+    opacity: 0.5;
     width: 70px;
     padding: 20px;
     text-align: center;
-    z-index: 2;
 }
 #go-to-top::before {
     content: "";
@@ -234,6 +234,11 @@ img {
 /* illustrator and Photoshop */
 .main-title {
     font-size: 48px;
+}
+
+#go-to-top {
+    width: 50px;
+    padding: 10px;
 }
 
 
