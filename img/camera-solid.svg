@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#001E36;}
+	.st1{fill:#31A8FF;}
+</style>
+<g id="レイヤー_2">
+	<path class="st0" d="M401.5,512H111.9C50.4,512,0,461.6,0,400.1l0-288.1C0,50.4,50.4,0,111.9,0h289.6
+		c61.6,0,111.9,50.4,111.9,111.9v288.1C513.5,461.6,463.1,512,401.5,512z"/>
+</g>
+<g id="レイヤー_1">
+	<path class="st1" d="M172.5,106.6l-8.1,24.4H106c-27.6,0-50,22.4-50,50v200c0,27.6,22.4,50,50,50h300c27.6,0,50-22.4,50-50V181
+		c0-27.6-22.4-50-50-50h-58.4l-8.1-24.4C334.4,91.3,320.1,81,304,81H208C191.9,81,177.6,91.3,172.5,106.6z M256,206
+		c41.4,0,75,33.6,75,75s-33.6,75-75,75s-75-33.6-75-75S214.6,206,256,206z"/>
+</g>
+</svg>
