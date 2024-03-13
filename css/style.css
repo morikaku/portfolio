@@ -88,6 +88,10 @@ body {
     margin-bottom: 40px;
 }
 
+.m-main {
+    margin-bottom: 60px;
+}
+
 .skill-list {
     display: flex;
     flex-wrap: wrap;
@@ -141,6 +145,15 @@ body {
 
 }
 
+.footer-text {
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+    border-top: 1px solid #000;
+}
 /* illustrator and Photoshop */
 
 .contents-area {
