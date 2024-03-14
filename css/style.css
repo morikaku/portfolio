@@ -259,6 +259,10 @@ img {
     font-size: 48px;
 }
 
+.footer-text {
+    font-size: 10px;
+}
+
 #go-to-top {
     width: 50px;
     padding: 10px;
