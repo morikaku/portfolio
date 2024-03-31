@@ -1,35 +1,33 @@
 @charset "UTF-8";
 
 /*
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
 
 .slackside-one-regular {
-  font-family: "Slackside One", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Slackside One", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 .ephesis-regular {
-  font-family: "Ephesis", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Ephesis", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .zen-maru gothic-regular {
-  font-family: "Zen Maru Gothic", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
 
 .saira-<uniquifier> {
-  font-family: "Saira", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 
@@ -46,7 +44,6 @@ body {
     font-weight: 400;
     font-style: normal;
     font-variation-settings: "wdth" 100;
-
     background-color: var(--base-color);
 }
 
@@ -63,17 +60,7 @@ body {
 .main-title {
     font-weight: 600;
     font-style: italic;
-
     font-size: 60px;
-    text-align: center;
-    margin-bottom: 40px;
-
-}
-
-.header-sub-title {
-    font-family: "Zen Maru Gothic", serif;
-    font-weight: 700;
-    font-size: 48px;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -81,7 +68,7 @@ body {
 .p-text {
     font-family: "Ephesis", cursive;
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 400;
     color: var(--accent-color);
     letter-spacing: 4px;
     text-align: center;
@@ -104,7 +91,6 @@ body {
 .skill-list li {
     font-weight: 600;
     font-style: italic;
-
     width: 45%;
     font-size: 50px;
     color: #fff;
@@ -114,7 +100,6 @@ body {
     background-size: cover;
     background-position: center;
     transition: all 0.3s ease-in-out;
-
 }
 
 .skill-list li:nth-child(1) {
@@ -132,6 +117,11 @@ body {
 .skill-list li:nth-child(4) {
     background-image: url(../img/portfolio-04.jpg);
 }
+
+.skill-list li:nth-child(5) {
+    background-image: url(../img/portfolio-05.jpg);
+}
+
 
 .skill-list li a {
     display: block;
@@ -250,23 +240,23 @@ img {
 
 @media screen and (max-width:640px) {
 
-.skill-list li {
-    width: 90%;
-}
+    .skill-list li {
+        width: 90%;
+    }
 
-/* illustrator and Photoshop */
-.main-title {
-    font-size: 48px;
-}
+    /* illustrator and Photoshop */
+    .main-title {
+        font-size: 48px;
+    }
 
-.footer-text {
-    font-size: 10px;
-}
+    .footer-text {
+        font-size: 10px;
+    }
 
-#go-to-top {
-    width: 50px;
-    padding: 10px;
-}
+    #go-to-top {
+        width: 50px;
+        padding: 10px;
+    }
 
 
 }
